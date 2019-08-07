@@ -6,7 +6,7 @@
     </transition>
     <transition name="popup-slide-up">
       <div class="popup-wrapper" v-show="visible">
-        <div class="popup-title">{{title}}</div>
+        <div class="popup-title" v-if="title && title.length > 0">{{title}}</div>
         <div class="popup-btn"
              :class="{'danger':item.type==='danger'}"
              v-for="(item,index) in btn"

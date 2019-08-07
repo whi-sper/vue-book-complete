@@ -6,6 +6,7 @@
 
 <script>
   import { px2rem } from '@/utils/utils'
+  // import {px2rem} from '../../utils/utils'
 
   export default {
     props: {

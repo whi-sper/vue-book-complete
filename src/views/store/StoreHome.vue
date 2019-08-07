@@ -50,7 +50,7 @@
       return {
         scrollTop: 94,
         random: null,
-        banner: null,
+        banner: '',
         guessYouLike: null,
         recommend: null,
         featured: null,
@@ -113,7 +113,7 @@
     .category-list-wrapper {
       margin-top: px2rem(20);
     }
-    .categories{
+    .categories {
       margin-top: px2rem(20);
     }
   }
