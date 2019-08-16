@@ -30,7 +30,7 @@
           <div class="book-detail-content-item-wrapper">
             <div class="book-detail-content-item" v-for="(item, index) in flatNavigation" :key="index"
                  @click="speak(item, index)">
-              // 播放动画
+              <!--播放动画-->
               <speak-playing v-if="playingIndex === index"
                              :number="5"
                              ref="speakPlaying"></speak-playing>
